@@ -18,23 +18,40 @@
                 <li> <a href="ecommerce.html">Ecommerce</li></a>
                 <li> <a href="contacto.html">Contacto</li></a>
                 <li> <a href="nosotros.html">Nosotros</li></a>
+                <li> <a href="alta.html">Alta</li></a>
                 <li class="inicio">Iniciar sesión</li>
             </ul>
         </nav>
     </header>
+    <main class="formularioAlta">
+        <form>
+            <label> Nombre: <br> <input class="form" type=”text” required > </label> <br>
+            <label >Precio: <br> <input class="form" type=”number” required > </label> <br>
+            <label >Stock: <br> <input class="form" type=”number” required > </label> <br>
+            <label >Marca: <br> <input class="form" type=”text” required > </label> <br>
+            <label >Categoría: <br> <input class="form" type=”text” required > </label> <br>
+            <label>Descripción corta: <br> <textarea class="form" name="comentarios" id="comentarios"></textarea></label> <br>
+            <label>Descripción larga: <br> <textarea class="form" name="comentarios" rows="4" cols="50" id="comentarios"></textarea></label> <br>
+            <label><input type="checkbox" name="enviosincosto" value="enviosincosto"> Envío sin costo </label> <br>
+            <label >Edad desde: <br> <input class="form" type=”number” required > </label> <br>
+            <label >Edad hasta: <br> <input class="form" type=”number” required > </label> <br>
+            <label for="foto">Selecciona una foto:</label>
+            <input type="file" id="foto" name="foto" accept="image/*"><br>
+            <button class="botonEnviar" type="submit">Enviar</button>
+        </form>
+    </main>
     <footer>
         <div class="logoDos">
             <a href="index.html">
                 <img src="./image/footer.png" alt="logo"></a>
         </div> 
         <div class="datos">
-            <h2>Dirección: Av. Brasil 2025 <br>
+            <h4>Dirección: Av. Brasil 2025 <br>
                 Tel. 29367808 <br>
-                Whatsapp: 096536789
-               </h2>
+                Whatsapp: 096536789 </h4>
         </div>
         <hr>
-    <h3>Redes Sociales</h3>
+    <h5>Redes Sociales</h5>
     <div class="redes">
         <img src="./image/ig.png" alt="Instagram">
         <img src="./image/fb..png" alt="Facebook">
